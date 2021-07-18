@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply CSS Part1</title>
+    <style type="text/css">
+        /* <Prototype Base> */
+        .btn {
+
+            padding: 10px 15px;
+            border: 2px solid black;
+            background-color: white;
+            color: black;
+            text-transform: uppercase;
+            font-weight: 700;
+            transition: 0.25s;
+            margin-bottom: 10px;
+        }
+        /* </Prototype Base> */
+        .btn:hover{
+            background-color: gray;
+        }
+        .btn-solid{
+            background-color: black;
+            color: white;
+        }
+        .btn-rounded{
+            border-radius: 5px;
+        }
+        .btn-rounded-circular{
+            border-radius: 50px;
+        }
+        .btn-bgcolor{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>To create awesome things using HTML button with CSS !</h1>
+    <br>
+    <button class="btn">Click Me</button>
+    <button class="btn btn-bgcolor">Color Btn</button>
+    <button class="btn btn-solid">Solid BTN</button>
+    <button class="btn btn-rounded">Rounded BTN</button>
+    <button class="btn btn-rounded btn-solid">Rounded-Solid BTN</button>
+    <button class="btn btn-rounded btn-rounded-circular">Rounded-Circular BTN</button>
+    <button class="btn btn-rounded btn-rounded-circular btn-solid">Solid-Circular BTN</button>
+</body>
+
+</html>

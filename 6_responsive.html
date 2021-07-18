@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Query (Final Episode)</title>
+    <style type="text/css">
+    *{
+        box-sizing: border-box;
+    }
+    .res{
+        width: 500px;
+        /* height: 200px; */
+        background-color: yellowgreen;
+        padding: 10px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+    @media screen and (max-width : 1024px){
+        .res{
+            width: 100%;
+            background-color:violet ;
+        }
+    }
+    @media screen and (max-width : 450px){
+        .res{
+            width: 100%;
+            background-color: yellow;
+        }
+    }
+   
+    </style>
+</head>
+<body>
+    <div class="res">
+        <h1>Testing Media Query</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates optio soluta odit! Quam, optio. Qui officiis quo tenetur aliquid incidunt! Expedita illo et nulla consequuntur. Minus, repellat repudiandae! Quae!</p>
+    </div>
+    <div class="res">
+        <h1>Testing Media Query</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates optio soluta odit! Quam, optio. Qui officiis quo tenetur aliquid incidunt! Expedita illo et nulla consequuntur. Minus, repellat repudiandae! Quae!</p>
+    </div>
+    <div class="res">
+        <h1>Testing Media Query</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptates optio soluta odit! Quam, optio. Qui officiis quo tenetur aliquid incidunt! Expedita illo et nulla consequuntur. Minus, repellat repudiandae! Quae!</p>
+    </div>
+</body>
+</html>

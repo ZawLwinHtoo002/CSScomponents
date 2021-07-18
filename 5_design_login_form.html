@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        * {
+            font-family: 'Ubuntu', sans-serif;
+            color: #feff89;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #f85959;
+        }
+        .login-form{
+            width: 400px;
+            border: 1px solid #7c203a;
+            border-radius: 11px;
+            margin: 200px auto;
+        }
+        
+        .form-input label{
+            display: block;
+            margin-bottom: 8px;
+        }
+        .form-input input{
+            display: block;
+            width: 100%;
+            margin-bottom: 12px;
+            border-radius: 11px;
+            padding: 15px 10px;
+            border: 1px solid #ff9f68;
+            background-color: #feff89;
+            color: #7c203a;
+            font-weight: bolder;
+            font-size: large;
+        }
+        .btn{
+            margin-bottom: 12px;
+            border-radius: 11px;
+            background-color: #7c203a;
+            color: #feff89;
+            font-weight: bold;
+            padding: 10px;
+            text-align: center;
+        }
+        .btn-icon-color{
+            color:#feff89 ;
+        }
+       
+       
+    </style>
+</head>
+
+<body>
+    <h1>To create Design Login Form using CSS !</h1>
+    <br>
+    <fieldset class="login-form">
+        <legend style="font-size: 2em; text-align: center;">
+            <i class="fas fa-sign-in-alt fa-fw"></i>
+            Login Form
+        </legend><br>
+        <div class="form-input">
+            <label for="name" style="margin-top: 50px;"><i class="fas fa-user-circle fa-fw"></i> Name : </label>
+            <input type="text" id="name">
+        </div><br>
+        <div class="form-input">
+            <label for="pw"><i class="fas fa-key fa-fw"></i> Password : </label>
+            <input type="password" id="pw">
+        </div><br>
+        <div class="form-input">
+        <button class="btn">
+            <i class="fas fa-check-circle btn-icon-color fa-fw"></i> Confirm
+        </button>
+        </div><br>
+        <span><a href="#" class="reg-link">Sign Up Your Account</a></span>
+    </fieldset>
+</body>
+
+</html>

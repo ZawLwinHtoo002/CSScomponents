@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply CSS Part3</title>
+    <style type="text/css">
+        body {
+            background-color: darkorchid;
+        }
+
+        .nav-bar{
+            list-style-type: none;
+            background-color: white;
+            padding: 0%;
+        }
+
+        .nav-item{
+            display: inline-block;
+            padding: 15px 10px;
+            font-family: cursive;
+            color: darkorchid;
+            text-transform: uppercase;
+        }
+
+        .nav-item:hover{
+            background-color: darkorchid;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .nav-item.active{
+            background-color: darkorchid;
+            color: white;
+        }
+
+        .test-list {
+            list-style-type: none;
+            padding-left: 0%;
+        }
+
+        .test-list li {
+            background-color: beige;
+            margin-bottom: 7px;
+            padding: 15px 10px;
+            width: 500px;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            border-left: 6px solid violet;
+            color: darkorchid;
+            transition: 0.5s;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .test-list li:hover {
+            border-left-width: 12px;
+            /* background-color: #cab287; */
+            font-weight: bold;
+        }
+
+        .fa {
+            width: 540px;
+            border: 5px solid bisque;
+            border-radius: 10px;
+        }
+
+        .lg {
+            font-family: cursive;
+            color: darkorchid;
+            font-size: 25px;
+            text-transform: uppercase;
+            border: 2px solid white;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item active">Home</li>
+            <li class="nav-item">News</li>
+            <li class="nav-item">About</li>
+            <li class="nav-item">Our Service</li>
+            <li class="nav-item">Contact Us</li>
+        </ul>
+    </nav>
+    <h1 style="color: bisque; font-family: cursive; text-transform: uppercase;">To create Side Bars, Design List & Nav
+        Bars using CSS !</h1>
+    <br>
+    <fieldset class="fa">
+        <legend class="lg">My Test List</legend>
+        <ul class="test-list">
+            <li>Home</li>
+            <li>News</li>
+            <li>About</li>
+            <li>Our Service</li>
+            <li>Contact Us</li>
+        </ul>
+    </fieldset>
+
+</body>
+
+</html>
